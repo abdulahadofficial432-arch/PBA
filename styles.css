@@ -155,7 +155,7 @@ body.home-active {
 /* Right Icon Bar */
 .right-bar {
     position: fixed;
-    right: 0;
+    right: 50px;
     top: 50%;
     transform: translateY(-50%);
     width: 60px;
@@ -190,11 +190,11 @@ body.home-active {
 /* Main Content */
 .main-content {
     margin-left: 280px;
-    margin-right: 60px;
+    margin-right: 110px;
     min-height: 100vh;
     position: relative;
     overflow: hidden;
-    width: calc(100% - 340px);
+    width: calc(100% - 390px);
     max-width: 100%;
 }
 
