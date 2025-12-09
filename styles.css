@@ -156,13 +156,14 @@ body.home-active {
 .right-bar {
     position: fixed;
     right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0;
+    height: 100vh;
     width: 60px;
     background-color: var(--primary-yellow);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 20px 0;
     gap: 25px;
     z-index: 999;
