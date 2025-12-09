@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahad - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Mobile Hamburger Menu Button -->
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+    </button>
+    
+    <!-- Overlay for mobile menu -->
+    <div class="sidebar-overlay"></div>
+    
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar">
+        <div class="sidebar-content">
+            <div class="profile-image">
+                <img src="/Public/media/im2.png" alt="Ahad">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-section="home">
+                    <span class="nav-dot"></span>HOME
+                </a></li>
+                <li><a href="#about" class="nav-link" data-section="about">
+                    <span class="nav-dot"></span>ABOUT ME
+                </a></li>
+                <li><a href="#resume" class="nav-link" data-section="resume">
+                    <span class="nav-dot"></span>RESUME
+                </a></li>
+                <li><a href="#portfolio" class="nav-link" data-section="portfolio">
+                    <span class="nav-dot"></span>PORTFOLIO
+                </a></li>
+                <li><a href="#testimonials" class="nav-link" data-section="testimonials">
+                    <span class="nav-dot"></span>TESTIMONIALS
+                </a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">
+                    <span class="nav-dot"></span>CONTACT
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Right Icon Bar -->
+    <div class="right-bar">
+        <a href="#home" class="icon-link" data-section="home"><i class="fas fa-home"></i></a>
+        <a href="#about" class="icon-link" data-section="about"><i class="fas fa-user"></i></a>
+        <a href="#resume" class="icon-link" data-section="resume"><i class="fas fa-briefcase"></i></a>
+        <a href="#portfolio" class="icon-link" data-section="portfolio"><i class="fas fa-desktop"></i></a>
+        <a href="#testimonials" class="icon-link" data-section="testimonials"><i class="fas fa-comments"></i></a>
+        <a href="#contact" class="icon-link" data-section="contact"><i class="fas fa-camera"></i></a>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="home-container">
+                <div class="home-left">
+                    <div class="home-content">
+                        <h1 class="greeting">HI THERE!</h1>
+                        <h2 class="name">I'M <span class="highlight">AHAD</span></h2>
+                        <div class="title-badge">
+                            <span>GRAPHIC DESIGNER / PHOTOGRAPHER</span>
+                        </div>
+                        <p class="description">
+                            Passionate Graphic Designer & Photographer with 15+ years of experience. Transforming ideas into compelling visual stories.
+                        </p>
+                        <button class="btn-primary">MORE ABOUT ME</button>
+                    </div>
+                </div>
+                <div class="home-right">
+                    <div class="home-image">
+                        <img src="/Public/media/im2.png" alt="Ahad">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-container">
+                <h1 class="section-title">ABOUT ME</h1>
+                <p class="section-subtitle">I'm Ahad, Graphic Designer / Photographer</p>
+                <p class="section-text">
+                    With a passion for visual storytelling and over 15 years of professional experience, I've dedicated my career to creating impactful designs and capturing memorable moments through photography. My work combines artistic vision with strategic thinking, ensuring every project not only looks stunning but also communicates effectively. I believe in the power of visual communication to inspire, engage, and transform brands.
+                </p>
+                
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">350+</div>
+                        <div class="stat-label">Projects Done</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">45K</div>
+                        <div class="stat-label">Followers</div>
+                    </div>
+                </div>
+
+                <div class="services-container">
+                    <h2 class="services-title">What I Do?</h2>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h3>GRAPHIC DESIGN</h3>
+                            <p>Creating visually stunning designs that communicate your brand's message effectively. From logos to complete brand identities, I bring creativity and strategic thinking to every project.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <h3>WEB DESIGN</h3>
+                            <p>Designing modern, responsive websites that provide exceptional user experiences. I combine aesthetics with functionality to create digital platforms that engage and convert visitors.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <h3>PHOTOGRAPHY</h3>
+                            <p>Capturing moments that tell stories. Specializing in portrait, commercial, and event photography with a keen eye for composition, lighting, and emotional storytelling.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section">
+            <div class="section-container">
+                <h1 class="section-title">RESUME</h1>
+                
+                <div class="resume-content">
+                    <div class="resume-section">
+                        <h2 class="resume-heading">EDUCATION</h2>
+                        <div class="resume-items">
+                            <div class="resume-item">
+                                <h3>Bachelor of Fine Arts in Graphic Design</h3>
+                                <span class="resume-date">2010 - 2014</span>
+                                <p>Graduated with honors from the School of Visual Arts. Specialized in digital design, typography, and visual communication. Completed thesis project on brand identity design.</p>
+                            </div>
+                            <div class="resume-item">
+                                <h3>Photography Certification</h3>
+                                <span class="resume-date">2014 - 2015</span>
+                                <p>Advanced photography techniques and digital imaging from the International Center of Photography. Mastered studio lighting, portrait photography, and post-processing.</p>
+                            </div>
+                            <div class="resume-item">
+                                <h3>Web Design & Development Course</h3>
+                                <span class="resume-date">2016 - 2017</span>
+                                <p>Comprehensive training in modern web design, UX/UI principles, and responsive design. Learned HTML, CSS, JavaScript, and design frameworks.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h2 class="resume-heading">EXPERIENCE</h2>
+                        <div class="resume-items">
+                            <div class="resume-item">
+                                <h3>Senior Graphic Designer - Creative Studio</h3>
+                                <span class="resume-date">2018 - 2020</span>
+                                <p>Led design projects for major clients, created brand identities, and managed a team of junior designers. Increased client satisfaction by 40% through innovative design solutions.</p>
+                            </div>
+                            <div class="resume-item">
+                                <h3>Creative Director - Digital Agency</h3>
+                                <span class="resume-date">2020 - 2022</span>
+                                <p>Oversaw all creative projects, developed brand strategies, and collaborated with clients to deliver exceptional visual experiences. Won 3 industry awards for outstanding design work.</p>
+                            </div>
+                            <div class="resume-item">
+                                <h3>Freelance Designer & Photographer</h3>
+                                <span class="resume-date">2022 - Present</span>
+                                <p>Working with diverse clients on branding, web design, and photography projects. Building a portfolio of creative work that combines design excellence with strategic thinking.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="section-container">
+                <h1 class="section-title">PORTFOLIO</h1>
+                
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">ALL</button>
+                    <button class="filter-btn" data-filter="graphic">GRAPHIC DESIGN</button>
+                    <button class="filter-btn" data-filter="web">WEB DESIGN</button>
+                    <button class="filter-btn" data-filter="photography">PHOTOGRAPHY</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="graphic">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=400&fit=crop" alt="Brand Identity Design">
+                        <div class="portfolio-overlay">
+                            <h3>Brand Identity Design</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=400&fit=crop" alt="E-Commerce Website">
+                        <div class="portfolio-overlay">
+                            <h3>E-Commerce Website</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="photography">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Portrait Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Portrait Photography</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="graphic">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=400&fit=crop" alt="Logo Design">
+                        <div class="portfolio-overlay">
+                            <h3>Logo Design</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop" alt="Corporate Website">
+                        <div class="portfolio-overlay">
+                            <h3>Corporate Website</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="photography">
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=400&h=400&fit=crop" alt="Event Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Event Photography</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="graphic">
+                        <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=400&fit=crop" alt="Print Design">
+                        <div class="portfolio-overlay">
+                            <h3>Print Design</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="photography">
+                        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=400&fit=crop" alt="Commercial Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Commercial Photography</h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=400&fit=crop" alt="Mobile App Design">
+                        <div class="portfolio-overlay">
+                            <h3>Mobile App Design</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section">
+            <div class="section-container">
+                <h1 class="section-title">TESTIMONIALS</h1>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/150?img=47" alt="Sarah Johnson">
+                        </div>
+                        <h3 class="testimonial-name">Sarah Johnson</h3>
+                        <p class="testimonial-text">"Working with Ahad was an absolute pleasure! The brand identity he created perfectly captured our vision and exceeded all expectations. His attention to detail and creative approach made our project stand out."</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/150?img=13" alt="Michael Chen">
+                        </div>
+                        <h3 class="testimonial-name">Michael Chen</h3>
+                        <p class="testimonial-text">"Ahad's photography skills are exceptional! He captured our corporate event beautifully, and the photos perfectly represented our brand. Professional, creative, and always delivers on time."</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/150?img=32" alt="Emily Rodriguez">
+                        </div>
+                        <h3 class="testimonial-name">Emily Rodriguez</h3>
+                        <p class="testimonial-text">"The website design Ahad created for us is stunning and user-friendly. Our conversion rates increased significantly after the launch. Highly recommend his web design services!"</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/150?img=68" alt="David Thompson">
+                        </div>
+                        <h3 class="testimonial-name">David Thompson</h3>
+                        <p class="testimonial-text">"Ahad is a true professional with incredible talent. His graphic design work helped us rebrand successfully, and we've received countless compliments. He's our go-to designer for all creative projects."</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/150?img=12" alt="Lisa Anderson">
+                        </div>
+                        <h3 class="testimonial-name">Lisa Anderson</h3>
+                        <p class="testimonial-text">"Absolutely thrilled with the photography work! Ahad has an incredible eye for detail and knows exactly how to capture the perfect moment. The photos from our wedding were beyond our expectations."</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/150?img=33" alt="James Wilson">
+                        </div>
+                        <h3 class="testimonial-name">James Wilson</h3>
+                        <p class="testimonial-text">"The logo design Ahad created for our startup was exactly what we needed. It's modern, memorable, and perfectly represents our brand. Working with him was smooth and professional throughout."</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/150?img=51" alt="Maria Garcia">
+                        </div>
+                        <h3 class="testimonial-name">Maria Garcia</h3>
+                        <p class="testimonial-text">"Ahad's web design transformed our online presence completely. The site is beautiful, functional, and user-friendly. Our traffic and engagement have increased dramatically since the launch."</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-container">
+                <h1 class="section-title">CONTACT</h1>
+                <p class="contact-subtitle">Feel free to contact me!</p>
+                <p class="section-text">
+                    I'm always open to discussing new projects, creative ideas, or opportunities to collaborate. Whether you need graphic design, web design, or photography services, I'd love to hear from you. Let's create something amazing together!
+                </p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>Email / Website</h3>
+                        <p>ahad.design@email.com</p>
+                        <p>www.ahadportfolio.com</p>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Available Worldwide</p>
+                        <p>Remote & On-Site Services</p>
+                    </div>
+                </div>
+
+                <p class="contact-footer">THANKS FOR PATIENCE!</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
