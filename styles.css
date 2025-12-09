@@ -168,6 +168,7 @@ body.home-active {
     z-index: 999;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
     animation: slideInRight 0.8s ease-out;
+    border-radius: 30px;
 }
 
 .icon-link {
